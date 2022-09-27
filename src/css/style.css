@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Kanit:ital@1&family=Pacifico&display=swap');
+ 
+ body {
+    display: flex;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+ 
+header {
+    display: flex;
+}
+
+ header img {    
+    margin: 1% 0 0 0;
+ }
+
+ main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+.btnhome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.btnplaygame, .btnaddword {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 8px;
+    background: #eee;
+    padding: 24px;
+    gap: 8px;
+    width: 300px;
+    margin-bottom: 5%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+ footer p {
+    font-size: 1.5rem;
+    font-family: 'Pacifico', cursive;
+ }
+
+ footer p a {
+    text-decoration: none;
+    color: #000000;
+ }
